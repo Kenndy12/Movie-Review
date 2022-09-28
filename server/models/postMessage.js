@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-//dsad
+
 const postSchema = mongoose.Schema({
     title: String,
     message: String,
