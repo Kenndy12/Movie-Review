@@ -47,7 +47,7 @@ const Form = ({currentId, setCurrentId}) => {
             <TextField name="message" variant="outlined" label="Message" fullWidth 
             value={postData.message} onChange={(e) => setPostData({...postData, message: e.target.value})}/>
             <TextField name="tags" variant="outlined" label="Tags" fullWidth 
-            value={postData.tags} onChange={(e) => setPostData({...postData, tags: e.target.value})}/>
+            value={postData.tags} onChange={(e) => setPostData({...postData, tags: e.target.value.split(',')})}/>
             <label for="rating">Choose a rating:</label>
             <select id="rating" name="rating" value={postData.rating} onChange={(e) => setPostData({...postData, rating: e.target.value})}>
                 <option value ="0">0</option>
