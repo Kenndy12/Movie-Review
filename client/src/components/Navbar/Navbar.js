@@ -40,8 +40,8 @@ const Navbar = () => {
                 <Toolbar className={classes.toolbar}>
                     {user ? (
                         <div>
-                            <Avatar className={classes.purple} alt={user.decoded.given_name} src={user.decoded.picture}>{user.decoded.given_name.charAt(0)}</Avatar>
-                            <Typography className={classes.userName} variant="h6">{user.decoded.given_name}</Typography>
+                            <Avatar className={classes.purple} alt={user?.decoded?.given_name} src={user?.decoded?.picture}>{user?.decoded?.given_name.charAt(0)}</Avatar>
+                            <Typography className={classes.userName} variant="h6">{user?.decoded?.given_name} {user?.result?.name}</Typography>
                             <Button variant="contained" className={classes.logout} color="secondary" onClick={logout}>LogOut</Button>
                         </div> 
                     ) : (
