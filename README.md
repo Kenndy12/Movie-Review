@@ -1,8 +1,8 @@
 # Movie-Review
 Movie review is a webapp created with MERN stack, movie review is designed to be a site where users can create post regarding movies and give their thoughts about them. 
 
+![image](https://user-images.githubusercontent.com/64679607/201264150-fa558a07-5a68-43ba-b23c-d6dd4e9a68f1.png)
 
-![Screenshot (1)](https://user-images.githubusercontent.com/64679607/201263446-266819f2-3399-4a4c-bc26-a3d03123c43a.png)
 
 PREQUISITES
 
