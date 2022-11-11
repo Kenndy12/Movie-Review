@@ -15,7 +15,7 @@ Movie review is a webapp created with MERN stack, movie review is designed to be
 - type "npm install body-parser cors express mongoose nodemon"
 - type "npm start"
 
-NOTE: MAKE SURE TO TYPE "npm start O"N THE SERVER FOLDER BEFORE THE CLIENT
+NOTE: MAKE SURE TO TYPE "npm start" ON THE SERVER FOLDER BEFORE THE CLIENT
 
 ## FEATURES
 
