@@ -8,10 +8,14 @@ Movie review is a webapp created with MERN stack, movie review is designed to be
 ### On client side
 - Make sure you are on the client folder
 - type "npm install axios moment react-file-base64 redux redux-thunk @material-ui/core jwt-decode @react-oauth/google"
+- type "npm start"
 
 ### On server side
 - Make sure you are on the server folder
 - type "npm install body-parser cors express mongoose nodemon"
+- type "npm start"
+
+NOTEN: MAKE SURE TO TYPE npm start ON THE SERVER FOLDER BEFORE THE CLIENT
 
 ## FEATURES
 
