@@ -4,6 +4,10 @@ Movie review is a webapp created with MERN stack, movie review is designed to be
 ![image](https://user-images.githubusercontent.com/64679607/201264150-fa558a07-5a68-43ba-b23c-d6dd4e9a68f1.png)
 
 
+@settings {
+  font-size: 100;
+  PREQUISITES
+}
 PREQUISITES
 
 On client side
